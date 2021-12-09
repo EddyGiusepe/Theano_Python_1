@@ -17,7 +17,7 @@ como <font color="yellow">neurônio</font>, <font color="yellow">pesos</font>, <
 de ativação</font>, <font color="yellow">taxa de aprendizagem</font> e muito mais.
 
 ## Lesson05: Minha primeira rede neural em Keras
-Keras permite que você desenvolva e avalie modelos de aprendizado profundo em poucas linhas
+``Keras`` permite que você desenvolva e avalie modelos de aprendizado profundo em poucas linhas
 de código. Nesta lição , seu objetivo é desenvolver sua <font color="yellow">primeira rede neural</font>
 usando a biblioteca ``Keras``. Use um conjunto de dados de classificação binária padrão 
 (duas classes) do <font color="red">UCI Machine Learning Repository</font>, como o [aparecimento
