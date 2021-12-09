@@ -19,4 +19,18 @@ de ativação</font>, <font color="yellow">taxa de aprendizagem</font> e muito m
 ## Lesson05: Minha primeira rede neural em Keras
 Keras permite que você desenvolva e avalie modelos de aprendizado profundo em poucas linhas
 de código. Nesta lição , seu objetivo é desenvolver sua <font color="yellow">primeira rede neural</font>
-usando a biblioteca ``Keras``. Use um conjunto de dados de classificação binária padrão (duas classes) do UCI Machine Learning Repository, como o aparecimento de diabetes nos índios Pima ou os conjuntos de dados da ionosfera .
+usando a biblioteca ``Keras``. Use um conjunto de dados de classificação binária padrão 
+(duas classes) do <font color="red">UCI Machine Learning Repository</font>, como o [aparecimento
+de diabetes nos índios Pima](https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv?__s=b0ntu45iywktlbv07dti&utm_source=drip&utm_medium=email&utm_campaign=DLWP+Mini-Course&utm_content=Lesson+05%3A+Your+First+Neural+Network+in+Keras) ou os conjuntos de dados da [ionosfera](https://archive.ics.uci.edu/ml/datasets/Ionosphere?__s=b0ntu45iywktlbv07dti&utm_source=drip&utm_medium=email&utm_campaign=DLWP+Mini-Course&utm_content=Lesson+05%3A+Your+First+Neural+Network+in+Keras).
+
+Reúna o código para alcançar o seguinte:
+
+1. Carregue seu conjunto de dados usando NumPy ou Pandas.
+2. Defina seu modelo de rede neural e compile-o.
+3. Ajuste seu modelo ao conjunto de dados.
+4. Faça uma estimativa do desempenho do seu modelo com base em dados não vistos.
+
+
+Para lhe dar uma grande vantagem, abaixo está um exemplo de trabalho completo que você pode 
+usar como ponto de partida. Ele assume que você baixou o conjunto de dados Pima Indians para seu
+diretório de trabalho atual com o nome de arquivo <font color="orange">pima-indians-diabetes.csv</font>.
