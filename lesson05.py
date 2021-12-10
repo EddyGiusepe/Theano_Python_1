@@ -67,7 +67,7 @@ early_stopping = tensorflow.keras.callbacks.EarlyStopping(
 )
 
 model.compile(SGD(learning_rate=0.003), "binary_crossentropy", metrics=['accuracy'])
-# model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+#model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 # Fit the model
 # history = model.fit(X, y, validation_split=0.33, epochs=20, batch_size=10, verbose=0)
 history = model.fit(x1_train, y1_train, validation_data=(x1_test, y1_test), epochs=250, batch_size=10, verbose=1, callbacks = [early_stopping])
